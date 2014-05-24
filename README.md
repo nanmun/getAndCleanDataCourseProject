@@ -1,6 +1,6 @@
-The purpose of this script is to read and extract desired information from the data collected for wearable computing
+## The purpose of this script is to read and extract desired information from the data collected for wearable computing
 
-## Function "run_analysis" takes no parameter and perform following steps.
+Function "run_analysis" takes no parameter and perform following steps.
 
 1. Read all the measure names from the features.txt file. This resulting data frame contains two columns - index and name.
 
