@@ -8,19 +8,17 @@ Function "run_analysis" takes no parameter and perform following steps.
 
 3. Combine the training and the test sets to create one data set named 'data':
 
-	a. Read the test data sets:
-		* Read the test subject data 
-		* Read the test activity data 
-		* Read the test feature data 
+* Read the test subject data 
+* Read the test activity data 
+* Read the test feature data 
 
-	b. Read the training data sets:
-		* Read the train subject data 
-		* Read the train activity data 
-		* Read the train feature data  
+* Read the train subject data 
+* Read the train activity data 
+* Read the train feature data  
 
-	c. Column bind the feature, subject and activity data 
+* Column bind the feature, subject and activity data 
 
-	d. Row bind the test and training data
+* Row bind the test and training data
 
 4. From the combined 'data', extract only those columns numbers as identified in step 2 and the subject and activity columns, and store the resulting dataset in 'df'	
 
