@@ -87,5 +87,7 @@ run_analysis <- function() {
   # write the tidy data to a csv file
   write.csv(out,"TidyData.csv")
   
+  # write the tidy data to a txt file, as the Coursera does not accept csv file upload.
+  write.table(out,"TidyData.txt")
   
 }
